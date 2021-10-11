@@ -20,7 +20,6 @@ for fromFile, directory, files in os.walk(fromFolder):
                     continue
                 else: shutil.copy(source_file, toFile)
         else:shutil.copy(source_file, toFile)
-
             ##os.remove(dst_file)
 
 for toFile, directory, files in os.walk(toFolder):
